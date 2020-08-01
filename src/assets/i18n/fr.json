@@ -6,9 +6,7 @@
         "contact": "Contact"
     },
     "footer": {
-        "contact": "Contact",
-        "phone": "00 00 00 00 00",
-        "email": "test@awesomeemail.com"
+        "contact": "Contact"
     },
     "home": {
         "title": "Accueil"
@@ -20,6 +18,26 @@
         "title": "Compétences"
     },
     "contact": {
-        "title": "Contactez nous"
+        "title": "Nous contacter",
+        "addressTitle": "Nous trouver",
+        "phone": "05 16 16 28 83",
+        "fax": "09 70 32 34 05",
+        "nameMichel": "Arnaud MICHEL",
+        "statusMichel": "Président",
+        "jobMichel": "Projeteur Electrique",
+        "emailMichel": "arnaudmichel@ares-systeme.fr",
+        "phoneMichel": "06 32 81 45 66",
+        "namePassemard": "Etienne PASSEMARD",
+        "statusPassemard": "Directeur Général",
+        "jobPassemard": "Automaticien",
+        "emailPassemard": "etiennepassemard@ares-systeme.fr",
+        "phonePassemard": "06 86 56 83 79"
+    },
+
+    "address": {
+        "1": "ARES Système",
+        "2": "Village des Molines",
+        "3": "11 rue de la Charité Bat. 7A",
+        "4": "16000 Angoulême"
     }
 }

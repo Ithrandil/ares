@@ -34,7 +34,9 @@
   </div>
 </nav>
 <!-- END HEADER -->
-<router-outlet></router-outlet>
+<div class="mainContent">
+  <router-outlet></router-outlet>
+</div>
 <!-- FOOTER -->
 <div class="fixed-bottom bg-light border-top row footer">
   <div class="col-12 col-sm-4">
@@ -44,16 +46,16 @@
       </div>
       <div class="col-6">
         <div>
-          ARES Système
+          {{ 'address.1' | translate }}
         </div>
         <div>
-          Village des Molines
+          {{ 'address.2' | translate }}
         </div>
         <div>
-          11 rue de la Charité Bat. 7A
+          {{ 'address.3' | translate }}
         </div>
         <div>
-          16000 Angoulême
+          {{ 'address.4' | translate }}
         </div>
       </div>
     </div>
@@ -64,11 +66,15 @@
     </div>
     <div>
       <fa-icon [icon]="faPhone"></fa-icon>
-      {{ 'footer.phone' | translate }}
+      {{ 'contact.phone' | translate }}
     </div>
     <div>
       <fa-icon [icon]="faAt"></fa-icon>
-      {{ 'footer.email' | translate }}
+      {{ 'contact.emailPassemard' | translate }}
+    </div>
+    <div>
+      <fa-icon [icon]="faAt"></fa-icon>
+      {{ 'contact.emailMichel' | translate }}
     </div>
   </div>
   <div class="col-12 col-sm-4 d-flex flex-column align-items-center justify-content-center">

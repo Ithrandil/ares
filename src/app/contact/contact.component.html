@@ -1,1 +1,79 @@
-{{ 'contact.title' | translate }}
+<div class="container-fluid">
+    <div class="row mt-3">
+        <h2 class=" col-12">
+            {{ 'contact.title' | translate }}
+        </h2>
+    </div>
+    <div class="row d-flex flex-column mt-3 ml-3">
+        <div>
+            <fa-icon [icon]="faPhone"></fa-icon>
+            {{ 'contact.phone' | translate }}
+        </div>
+        <div>
+            <fa-icon [icon]="faFax"></fa-icon>
+            {{ 'contact.fax' | translate }}
+        </div>
+        <div></div>
+    </div>
+    <div class="row d-flex flex-column mt-3 ml-3">
+        <div class="name mb-1">
+            {{ 'contact.nameMichel' | translate }}
+        </div>
+        <div>
+            {{ 'contact.statusMichel' | translate }}
+        </div>
+        <div>
+            {{ 'contact.jobMichel' | translate }}
+        </div>
+        <div>
+            <fa-icon [icon]="faAt"></fa-icon>
+            {{ 'contact.emailMichel' | translate }}
+        </div>
+        <div>
+            <fa-icon [icon]="faPhone"></fa-icon>
+            {{ 'contact.phoneMichel' | translate }}
+        </div>
+    </div>
+    <div class="row d-flex flex-column mt-3 ml-3">
+        <div class="name mb-1">
+            {{ 'contact.namePassemard' | translate }}
+        </div>
+        <div>
+            {{ 'contact.statusPassemard' | translate }}
+        </div>
+        <div>
+            {{ 'contact.jobPassemard' | translate }}
+        </div>
+        <div>
+            <fa-icon [icon]="faAt"></fa-icon>
+            {{ 'contact.emailPassemard' | translate }}
+        </div>
+        <div>
+            <fa-icon [icon]="faPhone"></fa-icon>
+            {{ 'contact.phonePassemard' | translate }}
+        </div>
+    </div>
+
+    <div class="row  mt-5">
+        <h2 class="col-12">
+            {{ 'contact.addressTitle' | translate }}
+        </h2>
+    </div>
+    <div class="row d-flex flex-column mt-3 ml-3">
+        <div>
+            {{ 'address.1' | translate }}
+        </div>
+        <div>
+            {{ 'address.2' | translate }}
+        </div>
+        <div>
+            {{ 'address.3' | translate }}
+        </div>
+        <div>
+            {{ 'address.4' | translate }}
+        </div>
+    </div>
+    <div class="row mapContainer">
+
+    </div>
+</div>
