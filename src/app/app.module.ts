@@ -1,3 +1,4 @@
+import { AgmCoreModule } from '@agm/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -23,6 +24,9 @@ import { KnowledgeComponent } from './knowledge/knowledge.component';
     ContactComponent
   ],
   imports: [
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBpENBq9R8stESK67R0e2qis-AIZXh_5qU'
+    }),
     FontAwesomeModule,
     BrowserModule,
     AppRoutingModule,
@@ -49,7 +53,16 @@ export class AppModule {
   }
 }
 
+
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, '/ares/assets/i18n/');
+  return new TranslateHttpLoader(http);
 }
+
+// ng build --prod --base-href https://ithrandil.github.io/ares/
+// 🌹  ngh --dir=dist/ares
+
+// DEPLOLYED GHPAGES VERSION
+// export function HttpLoaderFactory(http: HttpClient) {
+//   return new TranslateHttpLoader(http, '/ares/assets/i18n/');
+// }

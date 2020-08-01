@@ -10,7 +10,9 @@ export class ContactComponent implements OnInit {
   faPhone = faPhone;
   faAt = faAt;
   faFax = faFax;
-
+  lat = 45.646666;
+  lng = 0.121748;
+  zoom = 18;
   constructor() { }
 
   ngOnInit(): void {

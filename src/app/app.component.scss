@@ -29,6 +29,12 @@
     }
 }
 
+@media screen and (min-height: 900px){
+    .mainContent {
+        margin-bottom: 10rem;
+    }
+}
+
 // FOOTER
 .footer {
     font-size: 0.8rem;
