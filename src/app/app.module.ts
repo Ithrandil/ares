@@ -8,10 +8,10 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import { CompanyComponent } from './company/company.component';
-import { KnowledgeComponent } from './knowledge/knowledge.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
+import { KnowledgeComponent } from './knowledge/knowledge.component';
 
 
 @NgModule({
@@ -51,5 +51,5 @@ export class AppModule {
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, '/ares/assets/i18n/');
 }
