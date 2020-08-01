@@ -11,12 +11,12 @@ export class AppComponent {
   faPhone = faPhone;
   faAt = faAt;
 
-  public selectedLanguageFlag = 'assets/flags/flag-fr.png';
+  public selectedLanguageFlag = './assets/flags/flag-fr.png';
 
   constructor(private translate: TranslateService) { }
 
   public changeLanguage(lng: string): void {
     this.translate.use(lng);
-    this.selectedLanguageFlag = `assets/flags/flag-${lng}.png`;
+    this.selectedLanguageFlag = `./assets/flags/flag-${lng}.png`;
   }
 }
