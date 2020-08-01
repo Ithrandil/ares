@@ -1,0 +1,36 @@
+// MENU
+.logoMenu {
+    max-width: 5rem;
+}
+
+.nav-link {
+    color: var(--green-ares) !important;
+    &:hover{
+        background-color: #dee2e6;
+        border-radius: 0.5rem;
+    }
+}
+
+.dropdown-menu {
+    min-width: 3rem !important;
+}
+
+.selectedFlag {
+    max-width: 1.5rem;
+}
+.flagLng {
+    max-width: 1.5rem;
+}
+// END MENU
+
+// FOOTER
+.footer {
+    margin-top: 5rem !important;
+    font-size: 0.8rem;
+}
+
+.logoFooter {
+    max-width: 3rem;
+}
+
+// END FOOTER

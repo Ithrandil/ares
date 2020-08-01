@@ -1,0 +1,25 @@
+{
+    "menu": {
+        "home": "ARES Système",
+        "company": "Company",
+        "knowledge": "Knowledge",
+        "contact": "Contact"
+    },
+    "footer": {
+        "contact": "Contact",
+        "phone": "00 00 00 00 00",
+        "email": "test@awesomeemail.com"
+    },
+    "home": {
+        "title": "Home"
+    },
+    "company": {
+        "title": "Presentation"
+    },
+    "knowledge": {
+        "title": "Our knowledge"
+    },
+    "contact": {
+        "title": "Contact us"
+    }
+}
