@@ -23,17 +23,19 @@
 }
 // END MENU
 
-// @media screen and (max-height: 900px){
+@media screen and (max-height: 900px){
     .mainContent {
-        margin-bottom: 3rem;
+        // border: solid red 1px;
+        // max-width: 80rem;
+        margin-bottom: 13rem;
     }
-// }
+}
 
-// @media screen and (min-height: 900px){
-//     .mainContent {
-//         margin-bottom: 10rem;
-//     }
-// }
+@media screen and (min-height: 900px){
+    .mainContent {
+        margin-bottom: 10rem;
+    }
+}
 
 // FOOTER
 .footer {
